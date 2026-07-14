@@ -1,0 +1,156 @@
+<mxfile host="app.diagrams.net" pages="2">
+  <diagram name="Page-1" id="DOwOA1kqcl_hwW-TywXO">
+    <mxGraphModel dx="931" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9n4k1plYfO8JeE_Mpp_J-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#cae6f2, #173d4d);strokeColor=#10739e;strokeWidth=2;" value="&lt;pre&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 127, 255));&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;ระบบยืม–คืนอุปกรณ์กีฬาและกิจกรรม&lt;br&gt;(System sports equipment borrowing)&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="100" width="260" x="300" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="9n4k1plYfO8JeE_Mpp_J-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#f4e2be, #9a5800);fontColor=#000000;strokeColor=light-dark(#000000, #c17f1f);strokeWidth=2;" value="นักศึกษา/ผู้ยืม" vertex="1">
+          <mxGeometry height="60" width="160" x="60" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="9n4k1plYfO8JeE_Mpp_J-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#f4e2be, #9a5800);fontColor=#000000;strokeColor=light-dark(#000000, #c17f1f);strokeWidth=2;" value="ระบบแจ้งเตือน" vertex="1">
+          <mxGeometry height="60" width="160" x="350" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9n4k1plYfO8JeE_Mpp_J-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#f4e2be, #9a5800);fontColor=#000000;strokeColor=light-dark(#000000, #c17f1f);strokeWidth=2;" value="ผู้ดูแลอุปกรณ์" vertex="1">
+          <mxGeometry height="60" width="160" x="630" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="9n4k1plYfO8JeE_Mpp_J-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#f4e2be, #9a5800);fontColor=#000000;strokeColor=light-dark(#000000, #c17f1f);strokeWidth=2;" value="ชมรบ/ผู้จัดกิจกรรม" vertex="1">
+          <mxGeometry height="60" width="160" x="60" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="9n4k1plYfO8JeE_Mpp_J-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#f4e2be, #9a5800);fontColor=#000000;strokeColor=light-dark(#000000, #c17f1f);strokeWidth=2;" value="เจ้าหน้าที่/ผู้บริหาร" vertex="1">
+          <mxGeometry height="60" width="160" x="630" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="9n4k1plYfO8JeE_Mpp_J-7" edge="1" parent="1" source="9n4k1plYfO8JeE_Mpp_J-1" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0.027;exitY=0.05;exitDx=0;exitDy=0;exitPerimeter=0;" target="9n4k1plYfO8JeE_Mpp_J-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="370" y="380" as="sourcePoint" />
+            <mxPoint x="420" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9n4k1plYfO8JeE_Mpp_J-8" edge="1" parent="1" source="9n4k1plYfO8JeE_Mpp_J-5" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="9n4k1plYfO8JeE_Mpp_J-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="370" y="380" as="sourcePoint" />
+            <mxPoint x="420" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9n4k1plYfO8JeE_Mpp_J-10" edge="1" parent="1" source="9n4k1plYfO8JeE_Mpp_J-1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0.973;exitY=0.98;exitDx=0;exitDy=0;exitPerimeter=0;" target="9n4k1plYfO8JeE_Mpp_J-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="370" y="380" as="sourcePoint" />
+            <mxPoint x="420" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9n4k1plYfO8JeE_Mpp_J-11" edge="1" parent="1" source="9n4k1plYfO8JeE_Mpp_J-1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0.977;exitY=0.01;exitDx=0;exitDy=0;exitPerimeter=0;" target="9n4k1plYfO8JeE_Mpp_J-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="370" y="380" as="sourcePoint" />
+            <mxPoint x="420" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9n4k1plYfO8JeE_Mpp_J-12" edge="1" parent="1" source="9n4k1plYfO8JeE_Mpp_J-1" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="9n4k1plYfO8JeE_Mpp_J-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="370" y="380" as="sourcePoint" />
+            <mxPoint x="420" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9n4k1plYfO8JeE_Mpp_J-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="ขอยืม / ดูสถานะการยืม - คืน" vertex="1">
+          <mxGeometry height="30" width="151" x="189" y="248" as="geometry" />
+        </mxCell>
+        <mxCell id="9n4k1plYfO8JeE_Mpp_J-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="จองอุปกรณ์ล่วงหน้า" vertex="1">
+          <mxGeometry height="30" width="140" x="189" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="9n4k1plYfO8JeE_Mpp_J-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="ดูรายงานสรุปการใช้งาน" vertex="1">
+          <mxGeometry height="30" width="140" x="528" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="9n4k1plYfO8JeE_Mpp_J-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="อนุมัติ / บันทึกสภาพอุปกรณ์" vertex="1">
+          <mxGeometry height="30" width="140" x="528" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="9n4k1plYfO8JeE_Mpp_J-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="แจ้งเตือนกำหนดการคืน / ค้างคืน" vertex="1">
+          <mxGeometry height="30" width="180" x="348" y="190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="XLCfNt9qfW2aHf-Q0fMH" name="Page-2">
+    <mxGraphModel dx="931" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JubugH2BCyQ1KdurZz3L-4" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=light-dark(#fdc9c9, #442724);strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="243" width="243" x="170" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="JubugH2BCyQ1KdurZz3L-5" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=light-dark(#ffddb3, #4b2d08);strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="243" width="243" x="413" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="JubugH2BCyQ1KdurZz3L-6" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=light-dark(#e8e8e8, #39454e);strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="243" width="243" x="170" y="443" as="geometry" />
+        </mxCell>
+        <mxCell id="JubugH2BCyQ1KdurZz3L-7" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=light-dark(#b4eecd, #103c3f);strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="243" width="243" x="413" y="443" as="geometry" />
+        </mxCell>
+        <mxCell id="JubugH2BCyQ1KdurZz3L-8" edge="1" parent="1" source="JubugH2BCyQ1KdurZz3L-6" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" target="JubugH2BCyQ1KdurZz3L-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="490" as="sourcePoint" />
+            <mxPoint x="440" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JubugH2BCyQ1KdurZz3L-9" edge="1" parent="1" source="JubugH2BCyQ1KdurZz3L-6" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="JubugH2BCyQ1KdurZz3L-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="490" as="sourcePoint" />
+            <mxPoint x="440" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JubugH2BCyQ1KdurZz3L-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;textShadow=0;fontColor=light-dark(#9d3f3f, #ededed);" value="&lt;span style=&quot;&quot;&gt;Keep Satisfied&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;(รักษาความพอใจ / รายงานผล)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="160" x="211.5" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="JubugH2BCyQ1KdurZz3L-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;textShadow=0;fontColor=light-dark(#368d34, #ededed);" value="Keep Informed&lt;div&gt;(แจ้งข้อมูลสม่ำเสมอ)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="160" x="454.5" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="JubugH2BCyQ1KdurZz3L-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;textShadow=0;fontColor=light-dark(#787878, #ededed);" value="Monitor&lt;div&gt;(ติดตามพอสังเขป)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="160" x="211.5" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="JubugH2BCyQ1KdurZz3L-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;textShadow=0;fontColor=light-dark(#75630b, #EDEDED);" value="Manage Closely&lt;div&gt;(ดูแลใกล้ / มีส่วนร่วมสูง)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="160" x="460" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="JubugH2BCyQ1KdurZz3L-15" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=light-dark(#7A5423,#EDEDED);strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="594.5" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="JubugH2BCyQ1KdurZz3L-17" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=light-dark(#155620, #ededed);strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="580" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="JubugH2BCyQ1KdurZz3L-18" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=light-dark(#876430,#EDEDED);strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="524.5" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="JubugH2BCyQ1KdurZz3L-19" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=light-dark(#85184A,#EDEDED);strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="445" y="264" as="geometry" />
+        </mxCell>
+        <mxCell id="JubugH2BCyQ1KdurZz3L-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="เจ้าหน้าที่/ผู้บริหาร" vertex="1">
+          <mxGeometry height="30" width="115.5" x="403" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="JubugH2BCyQ1KdurZz3L-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="ชบรมผู้จัดกิจกรรม" vertex="1">
+          <mxGeometry height="30" width="115.5" x="479" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="JubugH2BCyQ1KdurZz3L-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="ผู้ดูแลอุปกรณ์" vertex="1">
+          <mxGeometry height="30" width="115.5" x="544.5" y="306.5" as="geometry" />
+        </mxCell>
+        <mxCell id="JubugH2BCyQ1KdurZz3L-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="นักศึกษา/ผู้ยืม" vertex="1">
+          <mxGeometry height="30" width="115.5" x="532.25" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="JubugH2BCyQ1KdurZz3L-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=12;spacingTop=0;spacingBottom=0;" value="Stakeholder Map: Influence / Interst&lt;div&gt;ระบบยืม-คืนอุปกรณ์กีฬาและกิจกรรม (&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 127, 255)); background-color: transparent;&quot;&gt;System sports equipment borrowing&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="400" x="220" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="i7B591Ihob-3uGcPTYUO-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="HIGH&lt;div&gt;(สูง)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="110" y="199" as="geometry" />
+        </mxCell>
+        <mxCell id="i7B591Ihob-3uGcPTYUO-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="LOW&lt;div&gt;(ต่ำ)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="110" y="656" as="geometry" />
+        </mxCell>
+        <mxCell id="i7B591Ihob-3uGcPTYUO-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;horizontal=0;" value="Influence (อำนาจ/อิทธิผลต่อการตัดสินใจ) -&amp;gt;" vertex="1">
+          <mxGeometry height="238" width="60" x="120" y="318" as="geometry" />
+        </mxCell>
+        <mxCell id="i7B591Ihob-3uGcPTYUO-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;horizontal=1;" value="Interest (ความสนใจ / ผลกระทบที่ได้รับ) -&amp;gt;" vertex="1">
+          <mxGeometry height="30" width="350" x="240" y="691" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="DOwOA1kqcl_hwW-TywXO">
+    <mxGraphModel dx="931" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9n4k1plYfO8JeE_Mpp_J-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#cae6f2, #173d4d);strokeColor=#10739e;strokeWidth=2;" value="&lt;pre&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 127, 255));&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;ระบบยืม–คืนอุปกรณ์กีฬาและกิจกรรม&lt;br&gt;(System sports equipment borrowing)&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="100" width="260" x="300" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="9n4k1plYfO8JeE_Mpp_J-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#f4e2be, #9a5800);fontColor=#000000;strokeColor=light-dark(#000000, #c17f1f);strokeWidth=2;" value="นักศึกษา/ผู้ยืม" vertex="1">
+          <mxGeometry height="60" width="160" x="60" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="9n4k1plYfO8JeE_Mpp_J-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#f4e2be, #9a5800);fontColor=#000000;strokeColor=light-dark(#000000, #c17f1f);strokeWidth=2;" value="ระบบแจ้งเตือน" vertex="1">
+          <mxGeometry height="60" width="160" x="350" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9n4k1plYfO8JeE_Mpp_J-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#f4e2be, #9a5800);fontColor=#000000;strokeColor=light-dark(#000000, #c17f1f);strokeWidth=2;" value="ผู้ดูแลอุปกรณ์" vertex="1">
+          <mxGeometry height="60" width="160" x="630" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="9n4k1plYfO8JeE_Mpp_J-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#f4e2be, #9a5800);fontColor=#000000;strokeColor=light-dark(#000000, #c17f1f);strokeWidth=2;" value="ชมรบ/ผู้จัดกิจกรรม" vertex="1">
+          <mxGeometry height="60" width="160" x="60" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="9n4k1plYfO8JeE_Mpp_J-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#f4e2be, #9a5800);fontColor=#000000;strokeColor=light-dark(#000000, #c17f1f);strokeWidth=2;" value="เจ้าหน้าที่/ผู้บริหาร" vertex="1">
+          <mxGeometry height="60" width="160" x="630" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="9n4k1plYfO8JeE_Mpp_J-7" edge="1" parent="1" source="9n4k1plYfO8JeE_Mpp_J-1" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0.027;exitY=0.05;exitDx=0;exitDy=0;exitPerimeter=0;" target="9n4k1plYfO8JeE_Mpp_J-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="370" y="380" as="sourcePoint" />
+            <mxPoint x="420" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9n4k1plYfO8JeE_Mpp_J-8" edge="1" parent="1" source="9n4k1plYfO8JeE_Mpp_J-5" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="9n4k1plYfO8JeE_Mpp_J-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="370" y="380" as="sourcePoint" />
+            <mxPoint x="420" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9n4k1plYfO8JeE_Mpp_J-10" edge="1" parent="1" source="9n4k1plYfO8JeE_Mpp_J-1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0.973;exitY=0.98;exitDx=0;exitDy=0;exitPerimeter=0;" target="9n4k1plYfO8JeE_Mpp_J-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="370" y="380" as="sourcePoint" />
+            <mxPoint x="420" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9n4k1plYfO8JeE_Mpp_J-11" edge="1" parent="1" source="9n4k1plYfO8JeE_Mpp_J-1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0.977;exitY=0.01;exitDx=0;exitDy=0;exitPerimeter=0;" target="9n4k1plYfO8JeE_Mpp_J-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="370" y="380" as="sourcePoint" />
+            <mxPoint x="420" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9n4k1plYfO8JeE_Mpp_J-12" edge="1" parent="1" source="9n4k1plYfO8JeE_Mpp_J-1" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="9n4k1plYfO8JeE_Mpp_J-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="370" y="380" as="sourcePoint" />
+            <mxPoint x="420" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9n4k1plYfO8JeE_Mpp_J-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="ขอยืม / ดูสถานะการยืม - คืน" vertex="1">
+          <mxGeometry height="30" width="151" x="189" y="248" as="geometry" />
+        </mxCell>
+        <mxCell id="9n4k1plYfO8JeE_Mpp_J-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="จองอุปกรณ์ล่วงหน้า" vertex="1">
+          <mxGeometry height="30" width="140" x="189" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="9n4k1plYfO8JeE_Mpp_J-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="ดูรายงานสรุปการใช้งาน" vertex="1">
+          <mxGeometry height="30" width="140" x="528" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="9n4k1plYfO8JeE_Mpp_J-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="อนุมัติ / บันทึกสภาพอุปกรณ์" vertex="1">
+          <mxGeometry height="30" width="140" x="528" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="9n4k1plYfO8JeE_Mpp_J-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="แจ้งเตือนกำหนดการคืน / ค้างคืน" vertex="1">
+          <mxGeometry height="30" width="180" x="348" y="190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
