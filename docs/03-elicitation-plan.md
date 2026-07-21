@@ -1,4 +1,4 @@
-# 03 — Elicitation Plan and Interview Guide
+# 03 — Interview Guide
 
 > **Week 3 deliverable — Case 08: ระบบยืม–คืนอุปกรณ์กีฬาและกิจกรรม**
 > เวอร์ชัน: v0.1 | สถานะ: Draft | วันที่ปรับปรุง: 13/07/2569 | ทีม: Team 08
