@@ -11,7 +11,7 @@
 | Stakeholder role(s) สัมภาษณ์ | ผู้ดูแลอุปกรณ์, นักศึกษา/ผู้ยืม, ชมรม/ผู้จัดกิจกรรม, เจ้าหน้าที่/ผู้บริหาร |
 | Source files | 03-interview-guide.md (Q-01–Q-08), 02-stakeholder-context-scope.md, 03-elicitation-plan.md |
 | วันที่สัมภาษณ์ | 21/07/69 |
-| Conversation excerpt | [`../evidence/week-04/interview-transcript-q01-q08.md`](../evidence/week-04/interview-transcript-q01-q08.md) *(ต้องแนบไฟล์จริงตามที่ระบุ)* |
+| Conversation excerpt | [`../evidence/week-04/ai-conversation-excerpt.md`](../evidence/week-04/ai-conversation-excerpt.md) |
 
 ## 2. Evidence Log
 
@@ -59,5 +59,5 @@
 
 ## 6. Links to Evidence Files
 
-- [Interview transcript Q-01–Q-08](../evidence/week-04/interview-transcript-q01-q08.md) *(ให้แนบไฟล์ต้นฉบับที่ได้รับมาไว้ตาม path นี้)*
+- [AI Conversation Excerpt](../evidence/week-04/ai-conversation-excerpt.md)
 - [Meeting minutes](../project-management/meeting-minutes/README.md)
