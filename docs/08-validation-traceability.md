@@ -76,7 +76,7 @@
 # 6. Baseline Decision
 
 - **Baseline name:** srs-v1.0
-- **Date:** [[ TODO: วันที่จริงที่ tag ]]
+- **Date:** [[ 23/08/69 ]]
 - **Approved/Reviewed by:** Team 08 — ศิลวัต อาซอง, กฤตเมธ สินธุใส, กิตติภพ สว่างเจริญทรัพย์
 - **Status:** Draft Baseline
 - **Remaining open issues:** OQ-EQP-01 ถึง OQ-EQP-06
