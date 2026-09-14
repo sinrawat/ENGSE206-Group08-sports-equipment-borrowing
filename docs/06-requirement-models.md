@@ -233,9 +233,92 @@
 
 ## 5. Requirement Models / Diagrams
 
-- Use Case Diagram: [link](../diagrams/use-case/README.md)
-- Activity Diagram: [link](../diagrams/activity/README.md)
-- Domain Model: [link](../diagrams/domain-model/README.md)
+### 5.1 Use Case Diagram
+
+ความสัมพันธ์ระหว่างกลุ่มผู้ใช้งานหลัก (Actors) กับ Use Case ทั้งหมดของระบบยืม–คืนอุปกรณ์กีฬาและกิจกรรม:
+
+![Use Case Diagram](../diagrams/use-case/use-case-overview.png)
+
+*ลิงก์ไฟล์ไดอะแกรมและคำอธิบาย:* [Use Case Diagrams Directory](../diagrams/use-case/README.md)
+
+---
+
+### 5.2 Activity Diagrams (Workflow Modeling)
+
+#### Workflow 1: กระบวนการจองอุปกรณ์และขออนุมัติกรณีพิเศษ (Booking & Special-Item Approval Flow)
+
+```mermaid
+stateDiagram-v2
+    [*] --> CheckAvailability: ชมรม/ผู้จัดกิจกรรมตรวจสอบสถานะอุปกรณ์ (UC-06)
+    CheckAvailability --> SelectSlot: พบอุปกรณ์ที่พร้อมใช้งานในช่วงเวลาที่ต้องการ
+    SelectSlot --> CheckOverlap: ระบุช่วงเวลาที่ต้องการจอง
+    CheckOverlap --> SelectSlot: ช่วงเวลาทับซ้อนกับการจองเดิม (เลือกช่วงเวลาใหม่)
+    CheckOverlap --> ConfirmBooking: ไม่ทับซ้อน
+    ConfirmBooking --> BookingSaved: บันทึกรายการจอง (UC-07)
+
+    state IsSpecialItem <<choice>>
+    BookingSaved --> IsSpecialItem
+    IsSpecialItem --> Ready: อุปกรณ์ทั่วไป (ไม่ต้องขออนุมัติ)
+    IsSpecialItem --> SubmitSpecialRequest: อุปกรณ์ประเภทพิเศษ/ราคาสูง
+
+    state SubmitSpecialRequest {
+        [*] --> FillActivityInfo: กรอกข้อมูลกิจกรรมและกำหนดคืน
+        FillActivityInfo --> SendRequest: ส่งคำขอ (UC-04)
+        SendRequest --> [*]
+    }
+
+    SubmitSpecialRequest --> PendingApproval: สถานะ "รอการพิจารณา"
+    PendingApproval --> Approved: ผู้มีอำนาจอนุมัติคำขอ
+    PendingApproval --> Rejected: ผู้มีอำนาจไม่อนุมัติคำขอ
+    Rejected --> [*]: จบกรณีไม่อนุมัติ
+    Approved --> Ready
+    Ready --> [*]: พร้อมเข้าสู่กระบวนการส่งมอบอุปกรณ์
+```
+
+#### Workflow 2: กระบวนการส่งมอบ ยืม และคืนอุปกรณ์ (Handover, Usage & Return Flow)
+
+```mermaid
+stateDiagram-v2
+    [*] --> PrepareHandover: อุปกรณ์พร้อมส่งมอบตามรายการยืม/จอง
+    PrepareHandover --> RecordConditionBefore: ผู้ดูแลอุปกรณ์บันทึกสภาพและภาพถ่ายก่อนส่งมอบ (UC-02)
+    RecordConditionBefore --> HandedOver: ส่งมอบอุปกรณ์ให้ผู้ยืม
+    HandedOver --> InUse: อุปกรณ์อยู่ระหว่างการยืม
+
+    state InUse {
+        [*] --> Borrowing
+        Borrowing --> ViewEvidence: ผู้ยืมตรวจสอบหลักฐานสภาพอุปกรณ์ของตนเอง (UC-03)
+        ViewEvidence --> Borrowing
+    }
+
+    InUse --> EarlyRecallCheck: มีความจำเป็นเร่งด่วนกว่า?
+    EarlyRecallCheck --> InUse: ไม่มี (ใช้งานตามกำหนดเดิม)
+    EarlyRecallCheck --> EarlyRecall: มี (UC-05)
+
+    state EarlyRecall {
+        [*] --> RecordReason: บันทึกเหตุผลการเรียกคืนก่อนกำหนด
+        RecordReason --> NotifyBorrower: แจ้งผู้ยืมล่วงหน้า
+        NotifyBorrower --> [*]
+    }
+
+    EarlyRecall --> ReturnProcess
+    InUse --> ReturnProcess: ครบกำหนดคืนตามปกติ
+
+    ReturnProcess --> RecordConditionAfter: ผู้ดูแลอุปกรณ์บันทึกสภาพและภาพถ่ายหลังรับคืน (UC-02)
+    RecordConditionAfter --> UpdateHistory: บันทึกลงประวัติการยืม–คืน (UC-01)
+    UpdateHistory --> [*]: รายการยืม–คืนเสร็จสมบูรณ์ พร้อมใช้ในข้อมูลสรุป (UC-08)
+```
+
+*ลิงก์ไฟล์ไดอะแกรมและคำอธิบาย:* [Activity Diagrams Directory](../diagrams/activity/README.md)
+
+---
+
+### 5.3 Domain Model
+
+แนวคิดโครงสร้างข้อมูลหลัก (Conceptual Domain Model) ของระบบยืม–คืนอุปกรณ์กีฬาและกิจกรรม:
+
+![Domain Model](../diagrams/domain-model/domain-model-overview.png)
+
+*ลิงก์ไฟล์ไดอะแกรมและคำอธิบาย:* [Domain Model Directory](../diagrams/domain-model/README.md)
 
 ## 6. Negotiation / Trade-off Notes
 
