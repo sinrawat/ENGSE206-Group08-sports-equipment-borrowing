@@ -1,14 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 460" font-family="'Segoe UI','Noto Sans Thai',Tahoma,sans-serif">
   <rect x="0" y="0" width="780" height="460" fill="#ffffff"/>
-  <text x="390" y="30" text-anchor="middle" font-size="17" font-weight="700" fill="#0f2a4a">Use Case Diagram — UC-01 (v2)</text>
+  <text x="390" y="30" text-anchor="middle" font-size="17" font-weight="700" fill="#0f2a4a">Use Case Diagram — UC-05 (v2)</text>
   <text x="390" y="49" text-anchor="middle" font-size="11.5" fill="#4a5a6a">ระบบยืม–คืนอุปกรณ์กีฬาและกิจกรรม (Case 08) · อ้างอิง docs/06-requirement-models-v2.md</text>
 
   <rect x="230" y="72" width="500" height="300" rx="10" fill="#f4fbfb" stroke="#0f2a4a" stroke-width="2.2"/>
   <text x="480" y="97" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f2a4a">ระบบยืม–คืนอุปกรณ์กีฬาและกิจกรรม</text>
 
   <ellipse cx="480" cy="222" rx="130" ry="50" fill="#eaf6f6" stroke="#1f7a7a" stroke-width="1.8"/>
-  <text x="480" y="216" text-anchor="middle" font-size="13.5" font-weight="700" fill="#0f2a4a">UC-01</text>
-  <text x="480" y="238" text-anchor="middle" font-size="12" fill="#1a2a3a">เพิ่มรายการอุปกรณ์</text>
+  <text x="480" y="216" text-anchor="middle" font-size="13.5" font-weight="700" fill="#0f2a4a">UC-05</text>
+  <text x="480" y="238" text-anchor="middle" font-size="12" fill="#1a2a3a">ดูข้อมูลสรุป</text>
+  <text x="480" y="254" text-anchor="middle" font-size="12" fill="#1a2a3a">การใช้งานอุปกรณ์</text>
 
   <g transform="translate(120,260)">
   <circle cx="0" cy="-40" r="11" fill="none" stroke="#0f2a4a" stroke-width="2.5"/>
@@ -16,11 +17,12 @@
   <line x1="-16" y1="-14" x2="16" y2="-14" stroke="#0f2a4a" stroke-width="2.5"/>
   <line x1="0" y1="14" x2="-16" y2="40" stroke="#0f2a4a" stroke-width="2.5"/>
   <line x1="0" y1="14" x2="16" y2="40" stroke="#0f2a4a" stroke-width="2.5"/>
-  <text x="0" y="60" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f2a4a">ผู้ดูแลอุปกรณ์</text>
-  <text x="0" y="75" text-anchor="middle" font-size="9.5" fill="#5a6a7a">(Equipment Custodian)</text>
+  <text x="0" y="60" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f2a4a">เจ้าหน้าที่ /</text>
+  <text x="0" y="75" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f2a4a">ผู้บริหาร</text>
+  <text x="0" y="90" text-anchor="middle" font-size="9.5" fill="#5a6a7a">(Staff / Admin)</text>
   </g>
   <line x1="138" y1="260" x2="350" y2="222" stroke="#5a6a7a" stroke-width="1.6"/>
 
   <rect x="230" y="388" width="500" height="34" rx="6" fill="#fbeee0" stroke="#c9711a" stroke-width="1"/>
-  <text x="480" y="409" text-anchor="middle" font-size="10.5" fill="#7a4a10">Related FR: FR-EQP-09</text>
+  <text x="480" y="409" text-anchor="middle" font-size="10.5" fill="#7a4a10">Related FR: FR-EQP-08</text>
 </svg>
