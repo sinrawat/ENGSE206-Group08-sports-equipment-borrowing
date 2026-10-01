@@ -58,6 +58,5 @@
 | OQ-09 | รูปแบบรายงาน/dashboard ที่เจ้าหน้าที่ต้องการ ควรเป็นรายสัปดาห์ รายเดือน หรือ real-time และผู้อนุมัติงบจัดซื้อคือใคร | กระทบขอบเขตฟีเจอร์ reporting และอาจเกี่ยวข้องกับ stakeholder กลุ่มใหม่ | เจ้าหน้าที่/ผู้บริหาร |
 
 ## 6. Links to Evidence Files
-
 - [AI Conversation Excerpt](../evidence/week-04/ai-conversation-excerpt.md)
 - [Meeting minutes](../project-management/meeting-minutes/README.md)
