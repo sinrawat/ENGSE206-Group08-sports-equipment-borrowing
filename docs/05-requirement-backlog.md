@@ -80,4 +80,4 @@ Week06 ควรเริ่มจาก requirement ที่พร้อมก
 | Use Case | FR-EQP-05 เป็น main flow (จองอุปกรณ์ป้องกันซ้ำซ้อน); FR-EQP-01 เป็น supporting flow (ค้นประวัติ) |
 | Acceptance Criteria | FR-EQP-02 หลังยืนยันผู้ถ่ายภาพ/สถานที่เก็บหลักฐาน |
 | Quality Scenario | NFR-EQP-01, NFR-EQP-03 |
-| Extension / Alternate Flow | FR-EQP-03, FR-EQP-04 หลังยืนยันเกณฑ์ "อุปกรณ์พิเศษ" และเกณฑ์เรียกคืนก่อนกำหนด |
+| Extension / Alternate Flow | FR-EQP-03, FR-EQP-04 หลังยืนยันเกณฑ์ "อุปกรณ์พิเศษ" และเกณฑ์เรียกคืนก่อนกำหนด | 
