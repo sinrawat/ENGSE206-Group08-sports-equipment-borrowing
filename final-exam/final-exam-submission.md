@@ -35,7 +35,7 @@
 |---|---|---|---|
 | Kirttamet (GitHub) | ไม่ลงรหัสใน repo สาธารณะ | G1–G2; ร่างโดย AI ช่วย รอเจ้าของตรวจ | G1/G2 ใน Word; ยังไม่มี commit ใหม่ |
 | sinrawat (GitHub) | ไม่ลงรหัสใน repo สาธารณะ | แผน G3/G5 + ตรวจ G6 | G3/G5 ใน word รอตรวจ G6 |
-| kit77-atr (GitHub) | ไม่ลงรหัสใน repo สาธารณะ | แผน G4 + รวมชุดส่ง G6 | ยังไม่มีหลักฐานการทำ ยังไม่ถือว่าเสร็จ |
+| kit77-atr (GitHub) | ไม่ลงรหัสใน repo สาธารณะ | G4 + รวมชุดส่ง G6; | G4 ใน Word และภาพใน `final-exam/diagrams/`; [kit77-atr เติม hash หลัง push] |
 
 ## รับรอง
 
