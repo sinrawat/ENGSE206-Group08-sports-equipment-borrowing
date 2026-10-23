@@ -15,14 +15,15 @@
 
 ## สมาชิกและบทบาท
 
+> **อย่าใส่รหัสนักศึกษาใน repo** (repo เป็นสาธารณะ) — ผู้สอนจับคู่ชื่อกับรหัสจากระบบของรายวิชา
 > ทุกคนมีส่วนร่วมใน requirements และ design ทุกส่วนได้ แต่ให้กำหนด **responsible owner** เพื่อกันงานตกหล่น
 
-| รหัสนักศึกษา | ชื่อ-นามสกุล | บทบาทหลัก | รับผิดชอบเริ่มต้น | หลักฐานการทำงานที่คาดหวัง |
+| ชื่อ-นามสกุล | GitHub username (ทุกชื่อที่ใช้ commit) | บทบาทหลัก | รับผิดชอบเริ่มต้น | หลักฐานการทำงานที่คาดหวัง |
 |---|---|---|---|---|
-| [ID] | [ชื่อ] | Team Coordinator | ประสานงาน/ติดตามความคืบหน้า | meeting notes, worklog |
-| [ID] | [ชื่อ] | Requirements Lead | elicitation / backlog / SRS | requirement docs |
-| [ID] | [ชื่อ] | Design Lead | diagrams / architecture / detailed design | design docs, diagrams |
-| [ID] | [ชื่อ] | UX & Evidence Lead | prototype / usability / evidence | evidence, prototype |
+| [ชื่อ] | [username] | Team Coordinator | ประสานงาน/ติดตามความคืบหน้า | meeting notes, worklog |
+| [ชื่อ] | [username] | Requirements Lead | elicitation / backlog / SRS | requirement docs |
+| [ชื่อ] | [username] | Design Lead | diagrams / architecture / detailed design | design docs, diagrams |
+| [ชื่อ] | [username] | UX & Evidence Lead | prototype / usability / evidence | evidence, prototype |
 
 ## กติกาทีม
 

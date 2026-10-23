@@ -1,4 +1,9 @@
-# Context Diagrams
+# Week 02 System Context Diagram
+
+Upload both source and export:
+- `w02-system-context.drawio`
+- `w02-system-context.png`
+
 
 ใส่ stakeholder map และ system context diagram
 
