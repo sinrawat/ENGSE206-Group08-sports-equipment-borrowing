@@ -4,22 +4,22 @@
 
 | รายการ | กรอก |
 |---|---|
-| กลุ่ม / Case | (เช่น กลุ่ม 3 · Case 03) |
-| ชื่อระบบ | |
-| CR เสริมที่เลือก | (รหัส CR เสริมตามข้อสอบส่วน ก) |
+| กลุ่ม / Case | Group 08 · Case 08 |
+| ชื่อระบบ | ระบบยืม–คืนอุปกรณ์กีฬาและกิจกรรม |
+| CR เสริมที่เลือก | TBD — sinrawat เลือกใน G5 |
 | Branch | `final-exam` |
 | Pull Request | `submit(final): change-to-design take-home` |
 | Commit hash สุดท้าย (ก่อน T0 + 24 ชั่วโมง) | |
-| สถานะ SRS ที่ใช้เป็นฐาน | (Draft / Needs Revision / Baseline Candidate — ไม่อ้างว่า Approved) |
+| สถานะ SRS ที่ใช้เป็นฐาน | Draft — ตาม SRS §0 |
 
 ## งานเดิมที่ใช้เป็นฐาน
 
 | งาน | ไฟล์และ commit หรือวันที่ |
 |---|---|
-| SRS (W07) | |
-| งาน W08 (review · trace · CR) | |
-| Design Strategy + Design Spine (W10) | |
-| Conceptual Architecture (W11) | |
+| SRS (W07) | `docs/07-srs-v1.md` ณ `f5e19eb28903781b7d0f3d14a5a9fcdeb98af788` |
+| งาน W08 (review · trace · CR) | `docs/08-validation-traceability.md` ณ `f5e19eb28903781b7d0f3d14a5a9fcdeb98af788`; ID บางจุดเป็นรุ่นเก่า ให้เทียบ W06 v2/SRS |
+| Design Strategy + Design Spine (W10) | `design/10-design-strategy.md`, `design/00-design-spine.md` ณ `f5e19eb28903781b7d0f3d14a5a9fcdeb98af788` ยังเป็น template |
+| Conceptual Architecture (W11) | ใช้ `design/11-conceptual-architecture.md` ณ `f5e19eb28903781b7d0f3d14a5a9fcdeb98af788`; `.docx` v0.1 ยังเป็น template |
 
 ## ไฟล์ที่ส่ง
 
@@ -33,10 +33,9 @@
 
 | ชื่อ–สกุล | รหัส | รับผิดชอบ (G / ข้อ) | หลักฐาน (commit หรือส่วนในไฟล์) |
 |---|---|---|---|
-| | | | |
-| | | | |
-| | | | |
-| | | | |
+| Kirttamet (GitHub) | ไม่ลงรหัสใน repo สาธารณะ | G1–G2; ร่างโดย AI ช่วย รอเจ้าของตรวจ | G1/G2 ใน Word; ยังไม่มี commit ใหม่ |
+| sinrawat (GitHub) | ไม่ลงรหัสใน repo สาธารณะ | แผน G3/G5 + ตรวจ G6 | ยังไม่มีหลักฐานการทำ ยังไม่ถือว่าเสร็จ |
+| kit77-atr (GitHub) | ไม่ลงรหัสใน repo สาธารณะ | แผน G4 + รวมชุดส่ง G6 | ยังไม่มีหลักฐานการทำ ยังไม่ถือว่าเสร็จ |
 
 ## รับรอง
 
